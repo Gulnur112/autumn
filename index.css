@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(218, 29, 5);
+        background: radial-gradient(circle, rgba(218, 29, 5, 1) 0%, rgba(240, 154, 5, 1) 49%, rgba(244, 196, 4, 1) 100%);
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyY3ANCN53t3rRjBQRSvuLIkoTj0kCiijjcQ&s);
+        
+        padding:30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+}
+
+.time {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px;
+    width: 80px;
+}
+
+.time span {
+    display: block;
+    font-size: 20px;
+}
+
+.time span:last-child {
+    font-size: 8px;
+    margin-top: 5px;
+}
